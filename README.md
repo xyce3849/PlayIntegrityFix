@@ -1,3 +1,14 @@
+# Project Moved to CleveresTricky
+
+> [!IMPORTANT]
+> **This project is no longer actively developed or maintained.**
+>
+> Active development has moved to **[CleveresTricky](https://github.com/tryigit/CleveresTricky)**. Existing PlayIntegrityFix users are encouraged to migrate to CleveresTricky for ongoing development, fixes, improvements, and future updates.
+>
+> This repository is now kept for historical and reference purposes. No further feature development is planned here.
+
+***
+
 # China ROM Integration
 
 Since the majority of users rely on this module for their devices, developments specific to the official China ROM have been integrated. Therefore, this module is highly recommended for users on the official China ROM.
@@ -90,7 +101,7 @@ Used for certificate spoofing to pass the STRONG integrity check.
 Guide: To find and contribute keybox files, visit KeyboxHub or the Keybox Checker tool.
 
 ### Security Patch File PIFS Only
-Spoofs the security patch date which can help pass integrity checks on End of Life devices running Android 13 and above. This file does not exist by default, you must create it manually.
+Spoofs the security patch date which can help pass the STRONG integrity check on End of Life devices running Android 13 and above. This file does not exist by default, you must create it manually.
 * Path: /data/adb/tricky_store/security_patch.txt
 * Example Content for January 1, 2025:
   20250101
